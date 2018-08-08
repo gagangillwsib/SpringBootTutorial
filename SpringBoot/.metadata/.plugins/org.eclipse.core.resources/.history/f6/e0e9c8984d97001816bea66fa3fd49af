@@ -1,0 +1,11 @@
+//You want Spring to manage this bean and create an instance of this
+// Spring has component and use below annotation
+@Component //or user @Service
+class HelloService {
+	//spring manage this bean
+	public String retrieveWelcomeMessage() {
+		
+		 return "Greetings from Spring Boot - Welcome Service - with component and auto wiring";
+	}
+	
+}
